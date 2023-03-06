@@ -1,0 +1,265 @@
+.container-fluid {
+  padding: 0;
+}
+
+/* *********************************************************** */
+
+/* Home page nav section */
+.nav-section {
+  background-color: #005bbde6;
+  color: white;
+
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-left: 4%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+.list {
+  margin-right: 3%;
+}
+
+/* *********************************************************** */
+
+/* index html title section */
+
+#top-layer {
+  color: #fff;
+}
+
+.title {
+  background-color: #000000;
+}
+
+.title-image {
+  width: 100%;
+  height: 100%;
+  opacity: 20%;
+}
+
+.welcome-text {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  font-family: 'Sacramento';
+  font-size: 5rem;
+  letter-spacing: inherit;
+}
+
+.main-text {
+  position: absolute;
+  top: 40%;
+  left: 28%;
+  font-family: 'Poppins';
+  font-size: 10rem;
+  line-height: 1.5;
+}
+
+.event-link {
+  position: absolute;
+  top: 80%;
+  left: 45%;
+  color: #000000;
+  background-color: #005bbde6;
+  font-size: x-large;
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+
+/* *********************************************************** */
+
+/* Event page css */
+.event {
+  margin-top: 150px !important;
+
+}
+
+.pic {
+  height: 400px;
+  margin-right: 20px;
+}
+
+/* *********************************************************** */
+
+/* about section  home page */
+#about {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.abt-heading {
+  color: #635985;
+  font-family: "Poppins";
+  font-size: 5rem;
+}
+
+.abt-para {
+  padding: 2rem;
+
+}
+
+/* *********************************************************** */
+
+/* footer section home page */
+
+
+#footer {
+  background-color: #005bbde6;
+  color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.footer-icons {
+  justify-content: space-between;
+  margin-left: 18px;
+  margin-bottom: 20px;
+}
+
+
+/* *********************************************************** */
+
+/* Login Page CSS */
+
+.login-form {
+  background-color: white;
+  border-top: 18px solid #005bbde6;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.login-form img{
+  width: 80%;
+  margin: 10px;
+}
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  height: 50px;
+}
+
+.middle {
+  border-radius: 0;
+  margin-bottom: -1px;
+  height: 50px;
+}
+
+.bottom {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  height: 50px;
+}
+
+.signup {
+  display: flex;
+  align-items: center;
+  padding-top: 10%;
+  background-color: #005bbd52;
+}
+
+.signup-heading {
+  font-size: 2rem;
+  font-family: "Poppins";
+}
+
+
+/* ***************Admin Page css************** */
+.admin-css {
+  background-color: #005bbde6;
+}
+
+.admin-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid transparent;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 40%;
+}
+
+/* ***************Event Page css************** */
+.event-body {
+  background-color: #005bbda6;
+}
+.event {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.event .event-card {
+  padding: 10px;
+  margin: 45px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 25%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.event .event-card img {
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 50%;
+  height: auto;
+
+}
+
+.event .event-card h4 {
+  font-size: 0.9rem;
+}
+
+.event .event-card p {
+  width: 70%;
+  margin-bottom: 5px;
+  text-align: justify;
+  align-items: center;
+  margin: auto;
+
+}
+
+.event .event-card a {
+  padding: 8px 15px;
+  display: block;
+  border-radius: 5px;
+  background-color: #005bbde6;
+  color: white;
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 15px 15px;
+  bottom: 0;
+}
